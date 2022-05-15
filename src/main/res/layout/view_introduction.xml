@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l_introduction"
+    android:padding="@dimen/basic_padding">
+
+    <TextView
+        android:id="@+id/tv_introduction"
+        style="@style/MultiLineTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="1"
+        android:text="@string/introduction_1"
+        android:textSize="@dimen/introduction_text_size" />
+    <ImageView
+        android:layout_width="@dimen/next_page_icon_size"
+        android:layout_height="@dimen/next_page_icon_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/arrow_down_float"/>
+</RelativeLayout>

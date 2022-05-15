@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/basic_padding"
+    android:orientation="vertical">
+    <include layout="@layout/view_day_time"/>
+    <include layout="@layout/divider"/>
+    <TextView
+        android:id="@+id/tv_select_plan"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="@dimen/mid_padding"
+        android:gravity="center"
+        android:text="@string/plan_hang_out"
+        android:textSize="@dimen/title_text_size" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100dp">
+        <TextView
+            android:id="@+id/tv_event"
+            style="@style/MultiLineTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mid_padding"
+            android:gravity="center"
+            android:textSize="@dimen/title_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

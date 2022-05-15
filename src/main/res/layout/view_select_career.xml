@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/basic_padding">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_select_career"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/select_career"
+            android:textSize="@dimen/title_text_size" />
+
+        <RadioButton
+            android:id="@+id/btn_career_operator"
+            style="@style/BtnStyle"
+            android:layout_marginTop="@dimen/basic_padding"
+            android:text="@string/career_operator" />
+
+        <RadioButton
+            android:id="@+id/btn_career_office_clerk"
+            style="@style/BtnStyle"
+            android:layout_marginTop="@dimen/basic_padding"
+            android:text="@string/career_office_clerk" />
+
+        <RadioButton
+            android:id="@+id/btn_career_delivery_clerk"
+            style="@style/BtnStyle"
+            android:layout_marginTop="@dimen/basic_padding"
+            android:text="@string/career_delivery_clerk" />
+
+        <RadioButton
+            android:id="@+id/btn_career_software_engineer"
+            style="@style/BtnStyle"
+            android:layout_marginTop="@dimen/basic_padding"
+            android:text="@string/career_software_engineer" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_career_confirm"
+        style="@style/BtnStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/confirm_btn_padding"
+        android:background="@color/btn_confirm"
+        android:text="@string/btn_confirm" />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="TextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/mid_content_text_size</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MultiLineTextStyle" parent="TextStyle">
+        <item name="android:autoSizeTextType">none</item>
+        <item name="android:maxLines">100000</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="WeightBtnStyle" parent="TextStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+    </style>
+
+    <style name="BtnStyle" parent="TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+    </style>
+
+    <style name="MidTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/mid_content_text_size</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/mid_content_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/mid_limit_content_text_size</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MiniTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/mid_content_text_size</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/mini_content_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/mini_limit_content_text_size</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="RefrigeratorTextStyle" parent = "MidTextStyle">
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+    <style name="PlanStyle" parent="TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginTop">@dimen/basic_padding</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+    </style>
+    <style name="BottomPlanStyle"  parent="TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/title_text_size</item>
+        <item name="android:autoSizeMinTextSize">@dimen/content_text_size</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/bottom_plan_background</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="BaseTheme" parent="Theme.AppCompat.NoActionBar">
+    </style>
+    <style name="SplashTheme" parent="BaseTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="PageTheme" parent="BaseTheme">
+    </style>
+</resources>

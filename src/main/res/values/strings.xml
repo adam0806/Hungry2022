@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Hungry2022</string>
+    <string name="splash_text">Hungry!</string>
+    <string name="introduction_1">老闆, 小龍蝦再來一份, 羊肉串再來十串, 此時舉起酒杯中一飲而盡的你, 左手喝酒, 右手吃肉, 得意地哼著小曲, 過著每天的幸福小日子!</string>
+    <string name="introduction_2">今日又是勞動人民發工資的日子, 真是個好日子阿, 不知不覺的下班路上, 抬頭一看, 竟然萬里無雲, 閃爍的星光之中, 竟有七星連珠, 恐有災星問世, 馬D! 肯定又是哪個晉外作亂, 企圖干擾我國安寧。</string>
+    <string name="introduction_3">不時, 身為繁華的國際一線大都市, 日日夜夜拼命工作的你, 卻某o病毒的爆發, 陷入前所未見的危機之中...</string>
+    <string name="introduction_4">隔離的日子...\n每日飽食度每人扣20\n(拖家帶眷的請小心!)\n每日心情扣5\n\n努力的活下去吧!</string>
+    <string name="start_main_1">新聞: 今日起, 由於近日疫情逐漸惡化, 所有小區封閉管理5天, 人員禁止流動, 政府將大力進行清零, 請各位居民安心在家。</string>
+    <string name="start_main_2">冰箱中有前幾天買的點東西, 封閉一周雖然苦悶, 咬咬牙應該能撐過去, 少吃點大餐不礙事, 不管這麼多了, 還是上班要緊, 加油又是美好的一天!</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_replay">Replay</string>
+    <string name="btn_replay_confirm">Sure to replay from Day 1?</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_dead_replay">再來餓一次!</string>
+    <string name="btn_dead_leave">離開遊戲</string>
+    <string name="btn_reset_confirm">Sure to reset?</string>
+    <string name="reset_no_blood">遊戲結束!\n\n誰叫你不好好吃飯呢?\n沒菜?吃肉啊!\n沒肉?吃蝦啊!\n\n半個月後被發現鄰居, 您已「自然死亡」多日!</string>
+    <string name="reset_no_mood">遊戲結束!\n\n「僅僅」關你幾天家里就心情鬱悶?\n不會偷溜出去晃嗎?\n不會聚眾抽菸聊天嗎?\n\n聽說今天又有人高空跳躍?\nX新聞: 闢謠!</string>
+    <string name="today_date">Day %1$d</string>
+    <string name="mood_value">Mood %1$d</string>
+    <string name="blood_value">Health %1$d</string>
+    <string name="money_value">$ %1$d</string>
+    <string name="rent_pay">房租(每月1日)\n%1$d</string>
+    <string name="salary_pay">工資(每月5日)\n%1$d</string>
+    <string name="date_format">yyyy-MM-dd</string>
+    <string name="mood">Mood</string>
+    <string name="blood">Health</string>
+    <string name="money">$</string>
+    <string name="salary">Salary</string>
+    <string name="cook_skill">Cook skill</string>
+    <string name="refrigerator">Refrigerator</string>
+    <string name="cabinet">Cabinet</string>
+
+    <!-- 初始選擇 -->
+    <string name="select_career">What\'s your career?</string>
+    <string name="career_operator">Operator</string>
+    <string name="career_office_clerk">Office Clerk</string>
+    <string name="career_software_engineer">Software Engineer</string>
+    <string name="career_delivery_clerk">Delivery Clerk</string>
+    <string name="select_roommate">Who\'s your roommate?</string>
+    <string name="roommate_spouse">Spouse</string>
+    <string name="roommate_kid">Spouse, Kid</string>
+    <string name="roommate_parent">Spouse, Kid, Parents</string>
+    <string name="roommate_single">I\'m single...</string>
+
+    <!-- 每日操作 -->
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="night">Evening</string>
+    <string name="select_plan">Today\'s plan</string>
+    <string name="plan_work">Work</string>
+    <string name="plan_cook">Cook</string>
+    <string name="plan_shopping">Shopping</string>
+    <string name="plan_play_game">Play game</string>
+    <string name="plan_watch_tv">Watch TV</string>
+    <string name="plan_social_network">Social network</string>
+    <string name="plan_exercise">Exercise</string>
+    <string name="plan_lying_flat">lying flat</string>
+    <string name="plan_hang_out">Hang out</string>
+
+    <!-- 食物-->
+    <!-- 嗜好品-->
+    <string name="coke">Coke</string>
+    <string name="coffee">Coffee</string>
+    <string name="liquor">liquor</string>
+    <string name="cigarette">Cigarette</string>
+
+    <!-- 蔬菜-->
+    <string name="potato">Potato</string>
+    <string name="tomato">tomato</string>
+    <string name="carrot">Carrot</string>
+    <string name="daikon">Daikon</string>
+    <string name="onion">Onion</string>
+    <string name="cabbage">Cabbage</string>
+    <string name="cucumbers">Cucumbers</string>
+
+    <!-- 肉-->
+    <string name="beef">Beef</string>
+    <string name="pork">Pork</string>
+    <string name="chicken">Chicken</string>
+    <string name="fish">Fish</string>
+    <string name="shrimp">Shrimp</string>
+
+    <!-- 主食-->
+    <string name="rice">Rice</string>
+    <string name="dumpling">dumpling</string>
+    <string name="instant_noodle">Instant noodle</string>
+
+    <string name="oil">Oil</string>
+    <string name="salt">Salt</string>
+
+    <!-- 生活用品-->
+    <string name="toilet_paper">Toilet paper</string>
+    <string name="medicine">Medicine</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="mask">Mask</string>
+
+    <!-- 事件-->
+    <!-- 躺平事件-->
+    <string name="lying_good">躺平!堅決躺平!</string>
+    <!-- 工作事件-->
+    <string name="work_normal">996打工人累翻!</string>
+    <string name="salary_half">共體時艱, 薪資減半!</string>
+    <string name="fired">你被炒魷魚了!</string>
+    <!-- 做飯事件-->
+    <string name="no_food">沒吃的, 只能喝西北風...餓</string>
+    <string name="tasty">Tasty!</string>
+    <string name="spoil">Something is spoiled!</string>
+    <!-- 搶購選擇-->
+    <string name="shopping_app">餓了梅, 每團, 找「良心」店家</string>
+    <string name="shopping_dist_group">官方小區團購</string>
+    <string name="shopping_group">雞蛋, 牛奶群加起來!親愛的團長</string>
+    <string name="shopping_private">黃牛好棒棒, 要「一點點」跑腿費</string>
+    <string name="shopping_pay">總共: </string>
+    <string name="shopping_pay_already">訂單完成, 等待配送中</string>
+    <string name="shopping_pay_not_enough">錢不夠瞎買啥呢?!</string>
+    <string name="shopping_no_buy">搶錢啊!天殺的不買了</string>
+    <string name="shopping_price">價格</string>
+    <string name="shopping_volume">數量</string>
+    <string name="shopping_volume_max">上限</string>
+    <string name="shopping_over_volume_max">沒這麼多貨可以買拉!</string>
+    <string name="shopping_choose_title">奮戰了幾個小時, 只找到...</string>
+    <!-- 打遊戲事件-->
+    <string name="game_win">黃金高手在此!High翻!</string>
+    <!-- 看電視事件-->
+    <string name="tv_normal">山川大海, 偉大江河!我國強大了!</string>
+    <string name="tv_positive_increase">確診人數再創新高!不怕苦不怕難, 上下一心, 人民加油!</string>
+    <string name="tv_positive_virus">政府全方位掌控, 精準防疫, 堅決清零!</string>
+    <string name="tv_positive_tech">我國重大科技再次突破創新!</string>
+    <string name="tv_positive_good_food">視察關懷老人, 表示物資充裕, 很滿意!</string>
+    <string name="tv_positive_dance">小朋友跳舞給防疫人員, 士氣滿滿!</string>
+    <!-- 看社群事件-->
+    <string name="tv_increase">確診人數再創新高!封閉多天了, 物資也沒, 快餓死了</string>
+    <string name="tv_leader">領導視察, 阿姨抱怨沒發多少物資, 菜價天高!</string>
+    <string name="tv_concert">抗議晚會被批。當個人吧! 餓幾天沒吃的了!</string>
+    <string name="tv_cook_game">美食比賽第一名, 咬過的饅頭!</string>
+    <string name="tv_trigger">強制徵收安排隔離。哭喊!!阿阿阿阿</string>
+    <string name="tv_broken_hospital">漏水啦!隔離地點環境惡劣, 豆腐渣工程。</string>
+    <string name="tv_no_food">部分地區人民表示, 根本沒發任何物資, 餓慘了</string>
+    <string name="tv_sell_food">部分居民買到他區防疫物資, 竟有人趁機盜賣!?</string>
+    <string name="tv_expensive_food">天價大禮包1588, 這菜應該是鑲金的!</string>
+    <string name="tv_group_food">我的團長我的團, 驚爆團長陽性!民眾自求多福</string>
+    <!-- 運動事件-->
+    <string name="exercise_normal">宅家運動起, 健康沒煩惱!</string>
+</resources>

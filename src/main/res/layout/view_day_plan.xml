@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_select_plan"
+    style="@style/TextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_plan_text_size"
+    android:layout_marginTop="@dimen/mid_padding"
+    android:gravity="center"
+    android:text="@string/plan_watch_tv"
+    android:textSize="@dimen/title_text_size" />

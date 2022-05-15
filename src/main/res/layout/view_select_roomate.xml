@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/basic_padding">
+
+
+    <RadioGroup
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextStyle"
+            android:id="@+id/tv_select_roommate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/select_roommate"
+            android:textSize="@dimen/title_text_size" />
+
+        <RadioButton
+            android:layout_marginTop="@dimen/basic_padding"
+            style="@style/BtnStyle"
+            android:id="@+id/btn_roommate_spouse"
+            android:text="@string/roommate_spouse"/>
+        <RadioButton
+            android:layout_marginTop="@dimen/basic_padding"
+            style="@style/BtnStyle"
+            android:id="@+id/btn_roommate_kid"
+            android:text="@string/roommate_kid"/>
+        <RadioButton
+            android:layout_marginTop="@dimen/basic_padding"
+            style="@style/BtnStyle"
+            android:id="@+id/btn_roommate_parent"
+            android:text="@string/roommate_parent"/>
+        <RadioButton
+            android:background="@color/btn_red"
+            android:layout_marginTop="@dimen/basic_padding"
+            style="@style/BtnStyle"
+            android:id="@+id/btn_roommate_single"
+            android:text="@string/roommate_single"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_marginBottom="@dimen/confirm_btn_padding"
+        android:layout_alignParentBottom="true"
+        android:background="@color/btn_confirm"
+        style="@style/BtnStyle"
+        android:id="@+id/btn_roommate_confirm"
+        android:text="@string/btn_confirm"/>
+
+</RelativeLayout>

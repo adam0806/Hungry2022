@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF000000</color>
+    <color name="bottom_background">#FF333333</color>
+    <color name="refrigerator_background">#FF999999</color>
+    <color name="cabinet_background">#FF664000</color>
+    <color name="divider">#FFAAAAAA</color>
+    <color name="select_border_background">#FF0000FF</color>
+    <color name="date_background">#FF005000</color>
+    <color name="rent_pay_background">#FF500050</color>
+    <color name="salary_pay_background">#FF000085</color>
+    <color name="text_color">#FFFFFFFF</color>
+    <color name="btn_red">#C0AF0000</color>
+    <color name="btn_confirm">#095FFF</color>
+</resources>

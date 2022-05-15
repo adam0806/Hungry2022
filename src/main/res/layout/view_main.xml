@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/view_main_basic" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/l_basic"
+        android:padding="@dimen/basic_padding">
+
+        <TextView
+            android:id="@+id/tv_today_plan"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/select_plan"
+            android:textSize="@dimen/title_text_size" />
+
+        <include
+            android:layout_below="@+id/tv_today_plan"
+            layout="@layout/divider"
+            android:layout_height="1dp"
+            android:layout_width="match_parent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_bottom"
+            android:layout_below="@+id/tv_today_plan"
+            android:layout_marginTop="@dimen/basic_padding"
+            android:scrollbars="none">
+
+            <RadioGroup
+                android:id="@+id/rg_plan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/tv_plan_lying_flat"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_lying_flat" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_work"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_work" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_cook"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_cook" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_shopping"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_shopping" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_play_game"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_play_game" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_watch_tv"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_watch_tv" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_social_network"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_social_network" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_exercise"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_exercise" />
+
+                <RadioButton
+                    android:id="@+id/tv_plan_hang_out"
+                    style="@style/PlanStyle"
+                    android:text="@string/plan_hang_out" />
+            </RadioGroup>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_above="@+id/btn_plan_confirm"
+            android:layout_marginTop="@dimen/mid_padding"
+            android:layout_marginBottom="@dimen/confirm_btn_padding"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableStart="@drawable/morning"
+                    style="@style/BottomPlanStyle"
+                    android:layout_height="60dp"
+                    android:background="@color/bottom_background"
+                    android:text="@string/morning" />
+
+                <TextView
+                    android:id="@+id/tv_morning"
+                    style="@style/BottomPlanStyle"
+                    android:hint="@string/morning" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableLeft="@drawable/afternoon"
+                    style="@style/BottomPlanStyle"
+                    android:layout_height="60dp"
+                    android:background="@color/bottom_background"
+                    android:text="@string/afternoon" />
+
+                <TextView
+                    android:id="@+id/tv_afternoon"
+                    style="@style/BottomPlanStyle"
+                    android:hint="@string/afternoon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@drawable/night"
+                    style="@style/BottomPlanStyle"
+                    android:layout_height="60dp"
+                    android:background="@color/bottom_background"
+                    android:text="@string/night" />
+
+                <TextView
+                    android:id="@+id/tv_evening"
+                    style="@style/BottomPlanStyle"
+                    android:hint="@string/night" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_plan_confirm"
+            style="@style/BtnStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/confirm_btn_padding"
+            android:background="@color/btn_confirm"
+            android:text="@string/btn_confirm" />
+
+    </RelativeLayout>
+</RelativeLayout>
